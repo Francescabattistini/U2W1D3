@@ -88,9 +88,12 @@ h1 {
   padding: 1em;
   font-size: 25px;
 }
-
+span {
+  font-size: 20px;
+}
 .price {
-  font-size: 1.5em;
+  font-size: 1em;
+  margin-top: 0.5em;
 }
 
 button.golden {
@@ -102,4 +105,40 @@ button.golden {
   cursor: pointer;
   font-size: 21px;
   font-weight: bold;
+}
+article {
+  background-color: #fef7e2;
+  padding: 2em;
+  width: 90vw;
+  margin: 0 auto;
+  border-radius: 50px;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.left {
+  text-align: left;
+}
+.left p {
+  font-size: 22px;
+  line-height: 1.4em;
+}
+article img {
+  order: 1;
+  width: 100%;
+}
+
+article div {
+  flex-direction: column;
+}
+
+article h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0.5em;
+  margin-top: 2em;
 }
